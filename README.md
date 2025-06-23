@@ -3,7 +3,7 @@
 A complete, feature-rich Mario platformer game focused on one amazing level with all advanced features implemented!
 
 ## 🎮 **Live Demo**
-🌐 **[Play Now on Netlify](https://mario-single-level-pro.netlify.app)** *(Will be available after deployment)*
+🌐 **[Play Now on Netlify](https://mariogamesinglelevel.netlify.app/)** *(Will be available after deployment)*
 
 ## 🚀 **Quick Start**
 
@@ -13,8 +13,8 @@ Just visit the live demo link above - no installation required!
 ### **Run Locally**
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/mario-single-level-pro.git
-cd mario-single-level-pro
+git clone https://github.com/Sehrish-Saddique/MarioGameJs.git
+cd MarioGameJs
 
 # Start local server
 python3 -m http.server 8080
@@ -264,13 +264,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - **Web Audio API** - Procedural sound generation
 - **Modern JavaScript** - ES6+ features and APIs
 
-## 📞 **Support**
-
-- **Issues**: [GitHub Issues](https://github.com/YOUR-USERNAME/mario-single-level-pro/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YOUR-USERNAME/mario-single-level-pro/discussions)
-
----
-
-**🎮 Ready to play? [Launch the game now!](https://mario-single-level-pro.netlify.app)**
+**🎮 Ready to play? [Launch the game now!](https://mariogamesinglelevel.netlify.app/)**
 
 *Built with ❤️ using pure HTML5 Canvas and JavaScript*
