@@ -1,0 +1,56 @@
+[build]
+  publish = "."
+  command = "echo 'No build step required - static HTML5 game'"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob:; connect-src 'self'"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "application/javascript"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "text/css"
+
+[[headers]]
+  for = "*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "text/html; charset=utf-8"
+
+[[headers]]
+  for = "*.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+    Content-Type = "image/x-icon"
+
+# Redirects for SPA-like behavior
+[[redirects]]
+  from = "/game"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/play"
+  to = "/index.html"
+  status = 200
+
+# 404 page redirect
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404

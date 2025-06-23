@@ -1,0 +1,43 @@
+{
+  "name": "mario-single-level-pro",
+  "version": "1.0.0",
+  "description": "A complete, feature-rich Mario platformer game focused on one amazing level with advanced features",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "serve": "python3 -m http.server 8080",
+    "dev": "python3 -m http.server 8080",
+    "build": "echo 'No build step required - static HTML5 game'",
+    "deploy": "echo 'Deploy to Netlify via GitHub integration'"
+  },
+  "keywords": [
+    "mario",
+    "platformer",
+    "game",
+    "html5",
+    "canvas",
+    "javascript",
+    "retro",
+    "arcade",
+    "single-level",
+    "browser-game"
+  ],
+  "author": "Mario Game Developer",
+  "license": "MIT",
+  "homepage": "https://github.com/YOUR-USERNAME/mario-single-level-pro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR-USERNAME/mario-single-level-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR-USERNAME/mario-single-level-pro/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
