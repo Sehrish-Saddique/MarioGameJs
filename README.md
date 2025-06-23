@@ -3,7 +3,7 @@
 A complete, feature-rich Mario platformer game focused on one amazing level with all advanced features implemented!
 
 ## 🎮 **Live Demo**
-🌐 **[Play Now on Netlify](https://mariogamesinglelevel.netlify.app/)** *(Will be available after deployment)*
+🌐 **[Play Now on Netlify](https://mariogamesinglelevel.netlify.app/)**
 
 ## 🚀 **Quick Start**
 
